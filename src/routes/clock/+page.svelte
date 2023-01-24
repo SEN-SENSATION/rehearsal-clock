@@ -25,7 +25,7 @@
 		<div>
 			<div class="font-bold text-[30vh] pb-1 flex justify-end text-left text-rose-600 leading-none">
 				{hour}:{min}
-				<div class="text-[13vh] pl-3 opacity-60 pt-[2rem]">{sec}</div>
+				<div class="text-[13vh] pl-3 opacity-60 pt-[3.5vh]">{sec}</div>
 			</div>
 		</div>
 
