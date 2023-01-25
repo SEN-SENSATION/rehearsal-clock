@@ -7,9 +7,6 @@
 	let sec: string | number = 0;
 
 	let interval: NodeJS.Timer;
-	let bgColor: string = "2e2727";
-	let previousColor: string = "2e2727";
-	let nextColor: string = "000";
 
 	let eventName: string = "The Newton Musical Rehearsal";
 
@@ -21,7 +18,7 @@
 	}
 
 	onMount(() => {
-		console.log("onMount", bgColor);
+		console.log("onMount");
 		updateTime();
 	});
 
@@ -66,18 +63,6 @@
 				title="Edit Event Name"
 			>
 				<i class="bx bx-edit" />
-			</button>
-
-			<button
-				class="hover:scale-110 transition duration-200 ease-in-out text-[1.75rem] text-rose-400 font-bold"
-				on:click={() => {
-					previousColor = bgColor;
-					bgColor = nextColor;
-					nextColor = previousColor;
-				}}
-				title="toggle OLED background"
-			>
-				<i class="bx bx-bulb" />
 			</button>
 		</div>
 	</div>
