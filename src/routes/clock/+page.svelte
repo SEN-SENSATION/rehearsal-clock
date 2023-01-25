@@ -33,7 +33,7 @@
 
 <Fullscreen let:onToggle>
 	<div
-		class={`transotion-color duration-300 ease-in-out grid justify-start px-[10rem] items-center h-screen bg-[#${bgColor}]`}
+		class={`transotion-color duration-300 ease-in-out grid justify-start px-[10rem] items-center h-screen bg-[#2e2727]`}
 	>
 		<div>
 			<div class="font-bold text-[30vh] pb-1 flex justify-end text-left text-rose-600 leading-none">
